@@ -29,7 +29,7 @@ convert_document() {
     --extract-media="${media_path}" \
     --output="${temporary_path}"
 
-  sed 's|src="images/documents/|src="/images/documents/|g; s|href="images/documents/|href="/images/documents/|g; s|<strong><mark>|<mark>|g; s|</mark></strong>|</mark>|g; s|<mark>||g; s|</mark>||g' \
+  sed 's|src="images/documents/|src="{{ site.baseurl }}/images/documents/|g; s|href="images/documents/|href="{{ site.baseurl }}/images/documents/|g; s|<strong><mark>|<mark>|g; s|</mark></strong>|</mark>|g; s|<mark>||g; s|</mark>||g' \
     "${temporary_path}" > "${output_path}"
   rm "${temporary_path}"
 
