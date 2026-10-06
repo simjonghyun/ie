@@ -6,7 +6,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-**Research Interests:** Sequential Decision-Making under Uncertainty, Robust and Stochastic Optimization, High-Dimensional Statistics
+**Research Interests:**  Sequential Decision Making under Uncertainty for Fault Diagnosis and Predictive Maintenance, High-Dimensional Statistical Learning for Manufacturing Systems, Smart Manufacturing and Industrial AI
 
 **Education:** Undergraduate student at [Chung-Ang University](https://www.cau.ac.kr/), double-majoring in Applied Statistics and Global Finance. (Advisor: [Wonyoung Kim](https://www.siai.cau.ac.kr/))
 
